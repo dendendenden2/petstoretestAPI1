@@ -110,6 +110,7 @@
 				{
 					"listen": "test",
 					"script": {
+						"id": "773e403b-9978-4d57-acb7-45105840a55f",
 						"exec": [
 							"pm.test(\"Body contains ID = 9000001110001\",() => {\r",
 							"  pm.expect(pm.response.text()).to.include(\"9000001110001\");\r",
@@ -121,8 +122,7 @@
 							"\r",
 							""
 						],
-						"type": "text/javascript",
-						"id": "773e403b-9978-4d57-acb7-45105840a55f"
+						"type": "text/javascript"
 					}
 				}
 			],
@@ -197,7 +197,7 @@
 	],
 	"variable": [
 		{
-			"id": "e4584aff-d68b-4d61-b278-d90a1bdad551",
+			"id": "1ea84261-888f-4cd1-80d9-a6cdc066d985",
 			"key": "baseUrl",
 			"value": "https://petstore.swagger.io/v2",
 			"type": "string"
